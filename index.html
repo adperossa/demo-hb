@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home Banking</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="logo" src="img/logo.png">
+      <div class="user-profile">
+        <p id="nombre">Bienvenido/a</p>
+        <img class="avatar" src="img/avatar.svg">
+      </div>
+    </header>
+    <main class="panel clearfix">
+      <section class="account-info">
+        <h4>Saldo en tu cuenta</h4>
+        <p id="saldo-cuenta">$10000</p>
+        <p>Tu l&iacute;mite de extracci&oacute;n es: <span id="limite-extraccion">$2000</span></p>
+      </section>
+      <nav class="menu" id="menu">
+        <ul>
+          <li class="active">Tu cuenta</li>
+          <li id="extraer-dinero">Extraer dinero</li>
+          <li id="depositar-dinero">Depositar dinero</li>
+          <li id="pagar-servicios">Pagar servicios</li>
+          <li id="transferir-dinero">Transferir dinero</li>
+          <li id="cambiar-limite">Cambiar l&iacute;mite de extracci&oacute;n</li>
+        </ul>
+      </nav>
+    </main>
+  </div>
+  <script src="js/homebanking.js"></script>
+</body>
+</html>
